@@ -39,8 +39,9 @@ def reformat_languages(languages)
     lang.each do |name, type|
       if i[name].has_key?(:style) == true
         i[name][:style] << object
-      end
+      else
       i[name].merge!({style: [object]})
+    end
     end
   end
   binding.pry
