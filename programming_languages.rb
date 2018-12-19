@@ -41,7 +41,7 @@ def reformat_languages(languages)
         i[name][:style] << object
       else
       i[name].merge!({style: [object]})
-    end
+      end
     end
   end
   binding.pry
