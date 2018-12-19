@@ -13,7 +13,7 @@ end
 =begin
 ```ruby
 
-i = 
+i =
 {
 :ruby => {
   :type => "interpreted"
@@ -69,7 +69,7 @@ languages = {
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 =end
