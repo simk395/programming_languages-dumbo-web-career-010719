@@ -9,8 +9,8 @@ def reformat_languages(languages)
       i[name].merge!({style: [object]})
     end
   end
+  i
 end
-
 
 =begin
 ```ruby
