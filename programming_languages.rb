@@ -37,7 +37,7 @@ def reformat_languages(languages)
   languages.each do |object, lang|
     i.merge!(lang) {|key, v1, v2| v1}
     lang.each do |name, type|
-      i[name].merge!({style: [object]})
+      i[name][:style] << object
       binding.pry
     end
   end
